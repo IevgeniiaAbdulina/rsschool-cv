@@ -90,3 +90,45 @@ Portfolio pages:
 - [GitHub](https://github.com/IevgeniiaAbdulinas)
 - [linkedIn](https://www.linkedin.com/in/ievgeniiaabdulina)
 - [Behance](http://www.behance.net/Jenshen608)
+
+
+## Education
+
+**The Kharkiv State Technical University**<br>
+**of Building and Architecture**<br>
+Sep 2004 – Jun 2011<br>
+Architecture<br>
+Kharkiv, Ukraine
+
+## Courses
+
+**Web Programming Course**<br>
+[**CodersCamp**](https://www.coderscamp.edu.pl)<br>
+Oct 2019 - Jan 2020<br>
+Wroclaw, Poland
+<!-- todo: add certificate image -->
+
+**English Language School**<br>
+**SpeakUp**<br>
+Oct 2018 - Mar 2020<br>
+Wroclaw, Poland
+
+## Online learning
+
+- [RS School JavaScript/Front-end course](https://rs.school/js)<br>
+JS/FE Course EN 2022Q3 (Stage#1) - _In Progress_
+
+- [freeCodeCamp](https://www.freecodecamp.org/abdulina)
+<!-- todo: add certificate image -->
+
+- [Udemy](https://www.udemy.com):
+    **Modern React with Redux**
+        *Instructor: Stephen Grider*
+        *53% complete*
+
+- YouTube Courses:
+    - [The Net Ninja](https://www.youtube.com/c/TheNetNinja)
+        -[HTML & CSS Crash Course Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G)
+        - [Full Modern React Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d)
+    - [Wes Bos](https://www.youtube.com/c/WesBos)
+        - [JavaScript30](https://www.youtube.com/watch?v=VuN8qwZoego&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH])
