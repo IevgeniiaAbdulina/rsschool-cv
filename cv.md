@@ -74,3 +74,19 @@ Junior Web Developer with experience in developing web applications from scratch
         background-color: var(--light-purple-color)
     }
 ```
+
+
+## Experience
+
+Welcome to my self-directed learning projects profiles:
+
+- [CODEPEN](https://codepen.io/ievgeniiaabdulina/full/VweMyLM)
+- [freeCodeCamp](https://www.freecodecamp.org/abdulina)
+- [frontendmentor](https://www.frontendmentor.io/profile/IevgeniiaAbdulina)
+
+
+Portfolio pages:
+
+- [GitHub](https://github.com/IevgeniiaAbdulinas)
+- [linkedIn](https://www.linkedin.com/in/ievgeniiaabdulina)
+- [Behance](http://www.behance.net/Jenshen608)
