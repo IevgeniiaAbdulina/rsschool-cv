@@ -1,10 +1,10 @@
 <!-- Junior Developer Resume -->
 
-# Ievgeniia Abdulina
+# <span class="txcolor">Ievgeniia Abdulina</span>
 *Front-end Developer*
 
 
-## Contact Info
+## <span class="txcolor">Contact Info</span>
 
 - **Phone:** 794 078 554
 - **E-mail:** ievgeniiaabdulina@gmail.com
@@ -14,12 +14,12 @@
 - [GitHub](https://github.com/IevgeniiaAbdulina)
 
 
-## Summary
+## <span class="txcolor">Summary</span>
 
 Junior Web Developer with experience in developing web applications from scratch - information gathering, planning, design, and development. Started a career road as a web designer. This opportunity gave me a better understanding of how to develop web applications. Extremely motivated to build high-quality solutions. Looking for an opportunity to grow front-end development skills in an innovative environment.
 
 
-## Skills
+## <span class="txcolor">Skills</span>
 <!-- todo: add a simple unordered list -->
     * HTML & CSS
     * Bootstarp, SCSS
@@ -30,7 +30,7 @@ Junior Web Developer with experience in developing web applications from scratch
     * VSCode
     * Figma, Illustrator, Adobe Photoshop
 
-## Code examples
+## <span class="txcolor">Code examples</span>
 *As part of a challenge from [freeCodeCamp.org](https://www.freecodecamp.org), I built the following projects and got all automated test suites to pass:*
 
 * [Palindrome Checker](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker):
@@ -76,7 +76,7 @@ Junior Web Developer with experience in developing web applications from scratch
 ```
 
 
-## Experience
+## <span class="txcolor">Experience</span>
 
 Welcome to my self-directed learning projects profiles:
 
@@ -92,7 +92,7 @@ Portfolio pages:
 - [Behance](http://www.behance.net/Jenshen608)
 
 
-## Education
+## <span class="txcolor">Education</span>
 
 **The Kharkiv State Technical University**<br>
 **of Building and Architecture**<br>
@@ -100,12 +100,12 @@ Sep 2004 – Jun 2011<br>
 Architecture<br>
 Kharkiv, Ukraine
 
-## Courses
+## <span class="txcolor">Courses</span>
 
 **Web Programming Course**<br>
 [**CodersCamp**](https://www.coderscamp.edu.pl)<br>
 Oct 2019 - Jan 2020<br>
-Wroclaw, Poland
+Wroclaw, Poland <!-- todo: add <br> -->
     <img src="./img/dyplom-coderscamp.jpg" alt="CodersCamp course certificate image" width="150" height="auto">
 
 **English Language School**<br>
@@ -113,18 +113,18 @@ Wroclaw, Poland
 Oct 2018 - Mar 2020<br>
 Wroclaw, Poland
 
-## Online learning
+## <span class="txcolor">Online learning</span>
 
 - [RS School JavaScript/Front-end course](https://rs.school/js)<br>
 JS/FE Course EN 2022Q3 (Stage#1) - _In Progress_
 
 - [freeCodeCamp](https://www.freecodecamp.org/abdulina)
-    - [Responsive Web Design](https://www.freecodecamp.org/certification/abdulina/responsive-web-design)
+    - [Responsive Web Design](https://www.freecodecamp.org/certification/abdulina/responsive-web-design) <!-- todo: add <br> -->
         <img src="./img/responsive-web-design.jpg" alt="freeCodeCamp course certificate image" width="250" height="auto">
     - [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/abdulina/javascript-algorithms-and-data-structures)
 
 - [Udemy](https://www.udemy.com): <!-- todo: add <br> -->
-    **Modern React with Redux** <!-- todo: add <br> -->
+    **Modern React with Redux** <!-- todo: add <br>, add link: https://www.udemy.com/course/react-redux/-->
         *Instructor: Stephen Grider* <!-- todo: add <br> -->
         *53% complete*
 
@@ -136,11 +136,28 @@ JS/FE Course EN 2022Q3 (Stage#1) - _In Progress_
         - [JavaScript30](https://www.youtube.com/watch?v=VuN8qwZoego&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH])
 
 
-## Languages
+## <span class="txcolor">Languages</span>
 
 - Ukrainian - Native
-- Polish - B1
+- Polish - B1 <!-- todo: add <br> -->
     <img src="./img/certyfikat-pl.jpg" alt="freeCodeCamp course certificate image" width="150" height="auto">
-- English - B1 / Intermediate
+- English - B1 / Intermediate <!-- todo: add <br> -->
     <img src="./img/certificate-en.png" alt="freeCodeCamp course certificate image" width="250" height="auto">
 - Russian - Native
+
+
+<style>
+    .txcolor {
+        font-weight: bold;
+        color: #A107FA;
+    }
+
+    a {
+        color: #FA14AF;
+    }
+
+    img {
+        border: 8px solid #FFF;
+        border-radius: 4px;
+    }
+</style>
