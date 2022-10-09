@@ -20,7 +20,7 @@ Junior Web Developer with experience in developing web applications from scratch
 
 
 ## Skills
-
+<!-- todo: add a simple unordered list -->
     * HTML & CSS
     * Bootstarp, SCSS
     * JavaScript
@@ -120,15 +120,26 @@ JS/FE Course EN 2022Q3 (Stage#1) - _In Progress_
 
 - [freeCodeCamp](https://www.freecodecamp.org/abdulina)
 <!-- todo: add certificate image -->
+<!-- todo: add learning sections -->
 
-- [Udemy](https://www.udemy.com):
-    **Modern React with Redux**
-        *Instructor: Stephen Grider*
+- [Udemy](https://www.udemy.com): <!-- todo: add <br> -->
+    **Modern React with Redux** <!-- todo: add <br> -->
+        *Instructor: Stephen Grider* <!-- todo: add <br> -->
         *53% complete*
 
 - YouTube Courses:
-    - [The Net Ninja](https://www.youtube.com/c/TheNetNinja)
+    - [The Net Ninja](https://www.youtube.com/c/TheNetNinja) <!-- todo: add  - [HTML ... -->
         -[HTML & CSS Crash Course Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G)
         - [Full Modern React Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d)
     - [Wes Bos](https://www.youtube.com/c/WesBos)
         - [JavaScript30](https://www.youtube.com/watch?v=VuN8qwZoego&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH])
+
+
+## Languages
+
+- Ukrainian - Native
+- Polish - B1
+    <!-- todo: add certificate image -->
+- English - B1 / Intermediate
+    <!-- todo: add certificate image -->
+- Russian - Native
