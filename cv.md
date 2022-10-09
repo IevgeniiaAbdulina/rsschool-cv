@@ -106,7 +106,7 @@ Kharkiv, Ukraine
 [**CodersCamp**](https://www.coderscamp.edu.pl)<br>
 Oct 2019 - Jan 2020<br>
 Wroclaw, Poland
-<!-- todo: add certificate image -->
+    <img src="./img/dyplom-coderscamp.jpg" alt="CodersCamp course certificate image" width="150" height="auto">
 
 **English Language School**<br>
 **SpeakUp**<br>
@@ -119,8 +119,9 @@ Wroclaw, Poland
 JS/FE Course EN 2022Q3 (Stage#1) - _In Progress_
 
 - [freeCodeCamp](https://www.freecodecamp.org/abdulina)
-<!-- todo: add certificate image -->
-<!-- todo: add learning sections -->
+    - [Responsive Web Design](https://www.freecodecamp.org/certification/abdulina/responsive-web-design)
+        <img src="./img/responsive-web-design.jpg" alt="freeCodeCamp course certificate image" width="250" height="auto">
+    - [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/abdulina/javascript-algorithms-and-data-structures)
 
 - [Udemy](https://www.udemy.com): <!-- todo: add <br> -->
     **Modern React with Redux** <!-- todo: add <br> -->
@@ -139,7 +140,7 @@ JS/FE Course EN 2022Q3 (Stage#1) - _In Progress_
 
 - Ukrainian - Native
 - Polish - B1
-    <!-- todo: add certificate image -->
+    <img src="./img/certyfikat-pl.jpg" alt="freeCodeCamp course certificate image" width="150" height="auto">
 - English - B1 / Intermediate
-    <!-- todo: add certificate image -->
+    <img src="./img/certificate-en.png" alt="freeCodeCamp course certificate image" width="250" height="auto">
 - Russian - Native
