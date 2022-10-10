@@ -6,12 +6,13 @@
 
 ## Contact Info
 
-- **Phone:** 794 078 554
+- **Phone:** +48 794 078 554
 - **E-mail:** ievgeniiaabdulina@gmail.com
-- **Location:** Wroclaw, Poland
-- [LinkedIn](https://www.linkedin.com/in/ievgeniiaabdulina)
-- [Behance](http://www.behance.net/Jenshen608)
+- **Discord:** Ievgeniia Abdulina#2374
+- **Telegram:** @Abdulina_Ievgeniia
 - [GitHub](https://github.com/IevgeniiaAbdulina)
+- [LinkedIn](https://www.linkedin.com/in/ievgeniiaabdulina)
+- **Location:** Wroclaw, Poland
 
 
 ## Summary
@@ -79,7 +80,7 @@ Junior Web Developer with experience in developing web applications from scratch
 
 Welcome to my self-directed learning projects profiles:
 
-- [CODEPEN](https://codepen.io/ievgeniiaabdulina/full/VweMyLM)
+- [CODEPEN](https://codepen.io/ievgeniiaabdulina/pen/GRdvWEE)
 - [freeCodeCamp](https://www.freecodecamp.org/abdulina)
 - [frontendmentor](https://www.frontendmentor.io/profile/IevgeniiaAbdulina)
 
@@ -87,7 +88,7 @@ Welcome to my self-directed learning projects profiles:
 Portfolio pages:
 
 - [GitHub](https://github.com/IevgeniiaAbdulinas)
-- [linkedIn](https://www.linkedin.com/in/ievgeniiaabdulina)
+- [CODEPEN](https://codepen.io/collection/DqJawo)
 - [Behance](http://www.behance.net/Jenshen608)
 
 
