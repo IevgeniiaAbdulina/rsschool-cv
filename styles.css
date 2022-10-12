@@ -7,3 +7,27 @@
     Coded:      Ievgeniia Abdulina
     Date:       12-10-2022
 -------------------------------------------------*/
+/* === Import fonts === */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+/* === Core Styles === */
+/* # CSS variables */
+:root {
+    /* ## Colors */
+    /* ### Primary */
+    --primary-color: #482673;
+    /* #### Text */
+    --blackish: #202020;
+    --dark-grey: #3F3F3F;
+    /* ### Secondary */
+    --secondary-color: #ed0b70;
+    --medium-grey: #707070;
+    --white: #FFFFFF;
+
+    /* ## Typography */
+    /* ### Body copy */
+    --font-size: 16px;
+    /* ### Font */
+    --font-family-main: 'Mulish', sans-serif;
+    --font-family-title: 'IBM Plex Mono', monospace;
+}
