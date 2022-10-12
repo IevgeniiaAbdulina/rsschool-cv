@@ -58,3 +58,90 @@ time,
 pre {
     font-family: var(--font-family-title);
 }
+
+/* PERSONAL INFO SECTION STYLE */
+header {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+div.personal-info {
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    padding-bottom: 28px;
+    flex: 2;
+    border-bottom: 2px solid var(--blackish);
+    border-right: 2px solid var(--blackish);
+}
+
+.personal-info-profile {
+    display: flex;
+    align-items: center;
+}
+
+.personal-info-profile > figure {
+    border: 2px solid var(--blackish);
+    padding: 4px;
+    width: 128px;
+    height: 128px;
+}
+
+.personal-info-profile > div {
+    padding-left: 24px;
+}
+
+.profile-title > h2 {
+    padding-top: 12px;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+h3 {
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    border: 2px solid var(--blackish);
+}
+
+.personal-info > p {
+    padding-top: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* CONTACT SECTION STYLE */
+aside {
+    padding-left: 24px;
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+aside > ul {
+    padding-top: 16px;
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+aside > ul > li > address {
+    display: inline-block;
+}
+
+/* MAIN SECTION STYLE */
+main {
+    margin: 50px 0;
+}
+
+/* FOOTER SECTION STYLE */
+footer {
+    margin-bottom: 50px;
+}
