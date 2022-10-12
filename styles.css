@@ -232,6 +232,30 @@ main > div.left {
     line-height: 16px;
 }
 
+/* CODE EXAMPLE SECTION STYLE */
+.code-example > p {
+    margin-bottom: 24px;
+}
+
+.code-example > h4 {
+    margin-bottom: 8px;
+}
+
+pre {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    background-color: var(--dark-grey);
+    border-radius: 4px;
+    white-space: pre;
+    word-break: keep-all;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-right: 18px;
+}
+
 /* FOOTER SECTION STYLE */
 footer {
     margin-bottom: 50px;
