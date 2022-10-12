@@ -8,6 +8,23 @@
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Ievgeniia Abdulina">
     <title>CV Abdulina</title>
+    <style>
+        header{
+            border: solid red;
+        }
+        main{
+            border: solid green;
+        }
+        .right{
+            border: solid greenyellow;
+        }
+        left{
+            border: solid lightgreen;
+        }
+        footer{
+            border: solid blue;
+        }
+    </style>
 </head>
 <body>
     <!-- PERSONAL INFO SECTION -->
@@ -38,8 +55,24 @@
         </aside>
     </header>
     <main>
+        <div class="container right">
+            <section>
+                <h3>Education</h3>
+                <div>
+                    <h4>The Kharkiv State Technical University
+                        of Building and Architecture</h4>
+                    <p><time datetime="2004-09-01">Sep 2004</time> – <time datetime="2011-06-01">Jun 2011</time></p>
+                    <p>Architecture</p>
+                    <address>Kharkiv, Ukraine</address>
+                </div>
+                <div>
+                    <h4>English Language School SpeakUp</h4>
+                    <p><time datetime="2018-10-01">Oct 2018</time> – <time datetime="2020-03-01">Mar 2020</time></p>
+                    <address>Wroclaw, Poland</address>
+                </div>
+            </section>
+        </div>
         <div class="container left">Left</div>
-        <div class="container right">Right</div>
     </main>
     <footer>link to your github, date, course logo with the link</footer>
 </body>
