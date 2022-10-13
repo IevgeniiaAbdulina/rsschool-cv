@@ -189,13 +189,16 @@ main > div.left {
     margin-bottom: 24px;
 }
 
-.courses-section > div > h4 {
+/* .courses-section > div > */
+h4 {
     font-weight: 800;
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 4px;
 }
 
-.courses-section > div > time {
+/* .courses-section > div > */
+time {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -237,9 +240,9 @@ main > div.left {
     margin-bottom: 24px;
 }
 
-.code-example > h4 {
+/* .code-example > h4 {
     margin-bottom: 8px;
-}
+} */
 
 pre {
     display: block;
@@ -303,9 +306,9 @@ pre {
     line-height: 16px;
 }
 
-.latest-projects > div > h4 {
+/* .latest-projects > div >h4 {
     margin-bottom: 8px;
-}
+} */
 
 .latest-projects > div > ul {
     list-style-type: none;
@@ -316,6 +319,15 @@ pre {
 
 .latest-projects > div > ul > li > a {
     color: var(--secondary-color);
+}
+
+/* EDUCATION SECTION STYLE */
+.education {
+    margin-bottom: 30px;
+}
+
+.education > div {
+    margin-bottom: 16px;
 }
 
 /* FOOTER SECTION STYLE */
