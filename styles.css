@@ -358,3 +358,34 @@ pre {
 footer {
     margin-bottom: 50px;
 }
+
+.attribution {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.attribution > p {
+    color: var(--medium-grey);
+}
+
+.attribution > p > a {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.attribution > p > a > img.gh-ic {
+    width: 22px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.attribution > p > a > img.rss-ic {
+    width: 120px;
+    height: 28px;
+}
+
+.attribution > p > a:hover {
+    color: var(--secondary-color);
+}
