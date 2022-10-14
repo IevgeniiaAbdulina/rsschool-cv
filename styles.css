@@ -215,8 +215,19 @@ aside {
     flex: 1;
 }
 
-aside > ul > li > address {
-    display: inline-block;
+aside > ul > li {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+}
+img.icon {
+    object-fit:contain;
+    margin-right: 8px;
 }
 
 /* MAIN SECTION STYLE */
