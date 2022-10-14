@@ -208,7 +208,7 @@ aside {
     flex: 1;
 }
 
-aside > ul > li {
+aside > nav > ul > li {
     display: flex;
     align-items: center;
 }
@@ -218,6 +218,7 @@ aside > ul > li {
     height: 24px;
     padding: 3px;
 }
+
 img.icon {
     object-fit:contain;
     margin-right: 8px;
