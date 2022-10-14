@@ -16,13 +16,12 @@
 :root {
     /* ## Colors */
     /* ### Primary */
-    --primary-color: #7d3cff;
     /* #### Text */
     --blackish: #202020;
     --dark-grey: #3F3F3F;
     /* ### Secondary */
-    --secondary-color: #f2d53c;
     --medium-grey: #707070;
+    --light-grey: #c6c6c6;
     --white: #FFFFFF;
 
     /* ## Typography */
@@ -111,7 +110,7 @@ time {
 figure {
     width: 100%;
     height: auto;
-    border: 2px solid var(--blackish);
+    border: 2px solid var(--light-grey);
     overflow: hidden;
     margin-bottom: 24px;
 }
@@ -140,15 +139,23 @@ address {
     list-style-type: none;
 }
 
+img {
+    filter: grayscale(75%);
+}
+
+img:hover {
+    filter: none;
+}
+
 a {
+    font-size: 16px;
     font-weight: 600;
-    text-decoration: none;
-    color: var(--primary-color);
-    cursor: pointer;
+    line-height: 24px;
+    color: var(--blackish);
 }
 
 a:hover {
-    color: var(--secondary-color);
+    color: var(--light-grey);
 }
 
 /* PERSONAL INFO SECTION STYLE */
@@ -265,7 +272,6 @@ main > div.left {
     margin-bottom: 16px;
 }
 
-
 pre {
     display: block;
     width: 100%;
@@ -302,6 +308,14 @@ code {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.latest-projects > div:nth-child(2) {
+    margin-bottom: 16px;
+}
+
+.latest-projects-content > a > figure {
+    margin-bottom: 0;
 }
 
 .latest-projects-content > a {
