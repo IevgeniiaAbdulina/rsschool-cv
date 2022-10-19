@@ -164,6 +164,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: center;
 }
 
 div.personal-info {
@@ -228,6 +229,7 @@ img.icon {
 main {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 main > div.right {
