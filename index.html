@@ -30,8 +30,12 @@
             <h3>Contact</h3>
             <nav class="navigation">
                 <ul>
-                    <li><img src="./img/phone-ic.png" alt="phone icon" class="icon">
-                        <a href="tel:+48794078554">Click&nbsp;to&nbsp;call</a></li>
+                    <li class="hover-text"><img src="./img/phone-ic.png" alt="phone icon" class="icon">
+                        <a  href="tel:+48000000000">
+                            Click&nbsp;to&nbsp;call
+                        </a>
+                        <span class="tooltip-text" id="bottom">For practice only!</span>
+                    </li>
                     <li><img src="./img/email-ic.png" alt="email icon" class="icon">
                         <a href="mailto:email@sample.com?" target="_blank">ievgeniiaabdulina@gmail.com</a></li>
                     <li><img src="./img/discord-ic.png" alt="discord app icon" class="icon">Ievgeniia Abdulina#2374</li>
@@ -57,21 +61,20 @@
                     <p>Architecture</p>
                     <address>Kharkiv, Ukraine</address>
                 </div>
-                <div>
-                    <h4>English Language School SpeakUp</h4>
-                    <p><time datetime="2018-10-01">Oct 2018</time>-<time datetime="2020-03-01">Mar 2020</time></p>
-                    <address>Wroclaw, Poland</address>
-                </div>
             </section>
             <!-- SKILLS SECTION -->
             <section class="skills">
                 <h3>Skills</h3>
                 <nav class="navigation">
                     <ul>
-                        <li>HTML &amp; CSS</li>
-                        <li>Bootstarp, SCSS</li>
+                        <li>HTML</li>
+                        <li>CSS, SCSS, Less</li>
+                        <li>Bootstrap</li>
                         <li>JavaScript</li>
-                        <li>React &amp; Redux, npm</li>
+                        <li>TypeScript</li>
+                        <li>Angular</li>
+                        <li>React &amp; Redux</li>
+                        <li>npm</li>
                         <li>Git, GitHub</li>
                         <li>MongoDB</li>
                         <li>VSCode</li>
@@ -103,19 +106,30 @@
                 <h3>Courses</h3>
                 <div  class="courses-section">
                     <div>
+                        <h4>THE ROLLING SCOPES SCHOOL</h4>
+                        <p>JS/FE COURSE EN 2022Q3 (JAVASCRIPT)</p>
+                        <time datetime="2022-10-01">Oct 2022</time>-<time datetime="2023-04-18">Apr 2023</time>
+                        <a href="https://www.coderscamp.edu.pl" target="_blank">
+                            <figure>
+                                <img src="./img/rs-school-sertificate.png" alt="certificate image">
+                                <figcaption>JS/FE COURSE EN 2022Q3 CERTIFICATE</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div>
                         <h4>Web Programming Course CodersCamp</h4>
                         <time datetime="2019-10-01">Oct 2019</time>-<time datetime="2020-01-01">Jan 2020</time>
                         <address>Wroclaw, Poland</address>
                         <a href="https://www.coderscamp.edu.pl" target="_blank">
                             <figure>
                                 <img src="./img/dyplom-coderscamp.jpg" alt="certificate image">
-                                <figcaption>Web Programming Certificate</figcaption>
+                                <figcaption>Web Programming CERTIFICATE</figcaption>
                             </figure>
                         </a>
                     </div>
                     <div>
-                        <h4>freeCodeCamp.org</h4>
-                        <p><em>In Progress</em></p>
+                        <h4>freeCodeCamp</h4>
+                        <br>
                         <a href="https://www.freecodecamp.org/learn/responsive-web-design" target="_blank">
                             <figure>
                                 <img src="./img/responsive-web-design.jpg" alt="certificate image">
@@ -124,32 +138,36 @@
                         </a>
                     </div>
                     <div>
-                        <h4>RS School<br>JavaScript/Front-end course</h4>
-                        <p>JS/FE Course EN 2022Q3 (Stage#1)</p>
-                        <p><em>In Progress</em></p>
-                    </div>
-                    <div>
                         <h4>Udemy<br>Modern React with Redux</h4>
                         <p>Instructor: Stephen Grider</p>
-                        <p><em>In Progress</em></p>
+                        <br>
                     </div>
                 </div>
             </section>
             <!-- CODE EXAMPLE SECTION -->
             <section class="code-example">
                 <h3>Code example</h3>
-                <p>As part of a challenge from <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp.org</a>, I built the following projects and got all automated test suites to pass:</p>
-                <h4>Palindrome Checker:</h4>
+                <p>As a part of a challenge from <a href="https://rs.school/js-en/" target="_blank">THE ROLLING SCOPES SCHOOL</a>
+                <br>The task is to implement functions on different Core JS topics.
+                </p>
+                <h4>Groups elements of the specified array by key:</h4>
                 <pre data-lang="JS">
                     <code class="language-js">
-                        function palindrome(str) {
-                            var regex = /[a-z]|[0-9]+/g;
-                            var expression = str.toLowerCase().split("").map(elem =&gt;
-                                elem.match(regex)).join("");
-                            var reverse = expression.split("").reverse().join("");
-                            return expression === reverse;
-                        }
-                        palindrome("eye");
+                        function group(array, keySelector, valueSelector) {
+                            const myMap = new Map();
+                          
+                            const keys = array.map((elem) => keySelector(elem));
+                            keys.filter((elem, i) => keys.indexOf(elem) === i)
+                              .map((keyElem) => {
+                                const valuesList = array
+                                  .filter((elem) => keySelector(elem) === keyElem)
+                                  .map((item) => valueSelector(item));
+                          
+                                return myMap.set(keyElem, valuesList);
+                              });
+                          
+                            return myMap;
+                          }
                     </code>
                 </pre>
             </section>

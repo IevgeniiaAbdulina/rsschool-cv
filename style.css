@@ -267,7 +267,7 @@ main > div.left {
 }
 
 .courses-section > div:nth-child(2) > a > figure {
-    margin-top: 60px;
+    margin-top: 16px;
 }
 
 /* CODE EXAMPLE SECTION STYLE */
@@ -278,7 +278,7 @@ main > div.left {
 pre {
     display: block;
     width: 100%;
-    height: 240px;
+    height: 370px;
     white-space: pre;
     word-break: keep-all;
     color: var(--white);
@@ -366,3 +366,25 @@ nav > p > a > img.rss-ic {
     width: 120px;
     height: 28px;
 }
+
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    color: white;
+    font-size: 12px;
+    background-color: #192733;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+.hover-text:hover .tooltip-text {
+    visibility: visible;
+}
+#bottom {
+    top: 28px;
+}
+.hover-text {
+    position: relative;
+    text-align: center;
+  }
