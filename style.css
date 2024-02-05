@@ -1,0 +1,393 @@
+/*-------------------------------------------------
+    [Main Stylesheet]
+
+    Project:    Front-end Developer CV Page
+    Version:    1.0.0
+    Challenge:  RS School
+    Coded:      Ievgeniia Abdulina
+    Date:       12-10-2022
+-------------------------------------------------*/
+/* === Import fonts === */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Mulish:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* === Core Styles === */
+/* # CSS variables */
+:root {
+    /* ## Colors */
+    /* ### Primary */
+    /* #### Text */
+    --blackish: #202020;
+    --dark-grey: #3F3F3F;
+    /* ### Secondary */
+    --medium-grey: #707070;
+    --light-grey: #c6c6c6;
+    --white: #FFFFFF;
+
+    /* ## Typography */
+    /* ### Body copy */
+    --font-size-body: 16px;
+    /* ### Font */
+    --font-family-main: 'Mulish', sans-serif;
+    --font-family-title: 'IBM Plex Mono', monospace;
+    --font-family-code: 'Noto Sans Mono', monospace;
+}
+
+/* Body element style */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 60vw;
+    min-width: 1100px;
+    height: auto;
+    padding: 0 50px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: var(--font-size-body);
+    font-family: var(--font-family-main);
+    color: var(--blackish);
+    background-color: var(--white);
+}
+
+/* TYPOGRAPHY STYLE */
+h3,
+time {
+    font-family: var(--font-family-title);
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 32px;
+    padding-top: 12px;
+}
+
+h3,
+h2 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 2.2px;
+    width: 50%;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    border: 2px solid var(--blackish);
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* BASIC ELEMENT STYLE */
+section {
+    margin-bottom: 30px;
+}
+
+time {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--medium-grey);
+}
+
+figure {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 2px solid var(--light-grey);
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+figcaption {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: capitalize;
+    padding: 8px;
+    color: var(--medium-grey);
+    text-align: center;
+}
+
+figure > img {
+    width: 100%;
+    height: 160px;
+    object-fit:contain;
+}
+
+ul,
+address {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    list-style-type: none;
+}
+
+/* img {
+    filter: grayscale(75%);
+} */
+
+/* img:hover {
+    filter: none;
+} */
+
+a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--blackish);
+}
+
+a:hover {
+    color: var(--light-grey);
+}
+
+/* PERSONAL INFO SECTION STYLE */
+header {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div.personal-info {
+    max-width: 660px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid var(--blackish);
+    border-right: 2px solid var(--blackish);
+}
+
+.personal-info-profile {
+    display: flex;
+    align-items: center;
+}
+
+.personal-info-profile > figure {
+    border: 2px solid var(--blackish);
+    padding: 6px;
+    width: 154px;
+    height: 154px;
+    overflow: hidden;
+}
+
+.personal-info-profile > figure > img {
+    width: 100%;
+    height: 138px;
+    object-fit:cover;
+}
+
+.personal-info-profile > div {
+    padding-left: 24px;
+    width: 75%;
+}
+
+/* CONTACT SECTION STYLE */
+aside {
+    max-width: 335px;
+    padding-left: 24px;
+    flex: 1;
+}
+
+aside > nav > ul > li {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+}
+
+img.icon {
+    object-fit:contain;
+    margin-right: 8px;
+}
+
+/* MAIN SECTION STYLE */
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+main > div.right {
+    max-width: 335px;
+    order: 2;
+    flex: 1;
+    padding-left: 24px;
+}
+
+main > div.left {
+    order: 1;
+    flex: 2;
+    width: 60%;
+    max-width: 660px;
+    padding-right: 24px;
+    padding-top: 30px;
+    border-right: 2px solid var(--blackish);
+}
+
+/* COURSES SECTION STYLE */
+.courses-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.courses-section > div {
+    flex: 0 0 48%;
+    max-width: 300px;
+}
+
+.courses-section > div:nth-child(1) > a > figure {
+    margin-top: 16px;
+}
+
+.courses-section > div:nth-child(2) > a > figure {
+    margin-top: 16px;
+}
+
+/* CODE EXAMPLE SECTION STYLE */
+.code-example > p {
+    margin-bottom: 16px;
+}
+
+pre {
+    display: block;
+    width: 100%;
+    height: 370px;
+    white-space: pre;
+    word-break: keep-all;
+    color: var(--white);
+    background-color: var(--dark-grey);
+}
+
+pre[data-lang]::before {
+    content: attr(data-lang);
+    display: block;
+    background-color: var(--blackish);
+    padding: 4px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+code {
+    position: relative;
+    left: -140px;
+    font-family: var(--font-family-code);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* LATEST PROJECTS SECTION STYLE */
+.latest-projects-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.latest-projects > div:nth-child(2) {
+    margin-bottom: 16px;
+}
+
+.latest-projects-content > a > figure {
+    margin-bottom: 0;
+}
+
+.latest-projects-content > a {
+    flex: 0 0 48%;
+}
+
+/* EDUCATION SECTION STYLE */
+.education > div {
+    margin-bottom: 16px;
+}
+
+/* LANGUAGES SECTION STYLE */
+.languages > ul > li > span {
+    font-weight: 700;
+}
+
+.languages > ul > li > figure {
+    max-width: 160px;
+    border: none;
+}
+
+/* FOOTER SECTION STYLE */
+footer {
+    margin: 50px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav > p {
+    color: var(--medium-grey);
+}
+
+nav > p > a > img.gh-ic {
+    width: 22px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+}
+
+nav > p > a > img.rss-ic {
+    width: 120px;
+    height: 28px;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    color: white;
+    font-size: 12px;
+    background-color: #192733;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+.hover-text:hover .tooltip-text {
+    visibility: visible;
+}
+#bottom {
+    top: 28px;
+}
+.hover-text {
+    position: relative;
+    text-align: center;
+  }
