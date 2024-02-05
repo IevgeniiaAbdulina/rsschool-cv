@@ -109,6 +109,7 @@ time {
 
 figure {
     width: 100%;
+    max-width: 300px;
     height: auto;
     border: 2px solid var(--light-grey);
     overflow: hidden;
@@ -256,10 +257,12 @@ main > div.left {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 20px;
 }
 
 .courses-section > div {
     flex: 0 0 48%;
+    max-width: 300px;
 }
 
 .courses-section > div:nth-child(1) > a > figure {
