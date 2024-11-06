@@ -1,4 +1,5 @@
 # Ievgeniia Abdulina
+
 Front-End Developer
 
 | E-mail                      |                     GitHub                     |                         LinkedIn                          |        Location |
@@ -18,7 +19,7 @@ Front-End Developer
 
 ## Objective
 
-Junior Web Developer with experience in developing web applications from scratch - information gathering, planning, design, and development. Started a career road as a web designer. This opportunity gave me a better understanding of how to develop web applications. Extremely motivated to build high-quality solutions. Looking for an opportunity to grow front-end development skills in an innovative environment.
+Inspired junior front-end developer excited to contribute my skills and enthusiasm to the dynamic team. Committed to staying current with the latest web development practices and offering responsive and engaging web solutions for diverse projects.
 
 ## Skills
 
