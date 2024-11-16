@@ -9,7 +9,8 @@
     /* Fonts */
     --base-font-family: Arial;
     --base-font-size: 18px;
-    --base-font-weight: 400;
+    --base-font-weight-normal: 400;
+    --base-font-weight-bold: 800;
     --base-line-height: 1.5;
 
     /* Color Theme Swatches in Hex */
@@ -37,7 +38,7 @@
 html {
     font-family: var(--base-font-family), Helvetica, sans-serif;
     font-size: var(--base-font-size);
-    font-weight: var(--base-font-weight);
+    font-weight: var(--base-font-weight-normal);
     line-height: var(--base-line-height);
 
     color: var(--primary-color);
@@ -180,4 +181,48 @@ main {
 
 .attribution a:hover {
     color: var(--secondary-color);
+}
+
+/* Main page content style */
+
+/* Banner */
+header {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.banner-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 50px;
+}
+
+h1.site-header {
+    text-align: right;
+    font-weight: var(--base-font-weight-bold);
+}
+
+h1.site-header > span {
+    font-size: 3em;
+    line-height: 1em;
+}
+
+h1.site-header > span:last-of-type {
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.banner-right > img {
+    width: 220px;
+    height: auto;
+    border: 1px solid;
+}
+
+.banner-wrapper > p {
+    font-size: 1em;
+    font-weight: var(--base-font-weight-bold);
+    text-align: right;
 }
