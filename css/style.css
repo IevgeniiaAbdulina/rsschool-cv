@@ -32,6 +32,10 @@ h2 {
     margin-bottom: 1em;
 }
 
+h3 {
+    margin-bottom: 1em;
+}
+
 ul {
     list-style-type: none;
 }
@@ -80,6 +84,7 @@ main {
 }
 
 .container {
+    width: 100%;
     max-width: var(--layout-desktop);
     min-width: var(--layout-mobile);
     margin: 0 auto;
@@ -258,13 +263,12 @@ h1.site-header > span:last-of-type {
     font-weight: var(--base-font-weight-bold);
 }
 
-/* Main content */
+/* Main content left */
 
 .content-wrapper {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    flex-wrap: wrap;
     padding: 50px 0;
     gap: 4em;
 }
@@ -308,9 +312,12 @@ h1.site-header > span:last-of-type {
 }
 
 .card > ul > li > a {
+    margin-right: 0.2em;
     text-decoration: none;
     color: var(--primary-color);
 }
+
+/* ----------------------- */
 
 /* Contacts section */
 .img-container {
@@ -341,7 +348,7 @@ h1.site-header > span:last-of-type {
     border: 1px solid var(--secondary-color);
 }
 
-.card > ul > li:hover  {
+.card > ul > li:hover {
     color: var(--secondary-color);
 }
 
@@ -349,3 +356,113 @@ h1.site-header > span:last-of-type {
     filter: drop-shadow(0 100px 0 var(--secondary-color))
 }
 
+/* Main content right  */
+
+/* Code example section */
+figure {
+    border: 1px solid var(--primary-color);
+}
+
+figcaption {
+    text-transform: uppercase;
+    font-weight: var(--base-font-weight-bold);
+    padding: 1em;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+pre {
+    padding: 1em;
+    transform: translate(-200px);
+}
+
+/* Experience section */
+#experience p.subtitle {
+    margin-bottom: 1em;
+}
+
+.profiles-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+}
+
+.profiles-list li {
+    padding: 0.5em;
+    border: 1px solid var(--primary-color);
+}
+
+.profiles-list li a {
+    margin-right: 0.2em;
+}
+
+ul > li.button:hover {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+li.button:hover a {
+    color: var(--white-color);
+}
+
+/* Projects list section */
+.projects-list {
+    margin-top: 2em;
+}
+
+.projects-list-wrapper figure {
+    width: 50%;
+    height: auto;
+}
+
+.project-img-container {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.projects-list-wrapper {
+    position: relative;
+    display: flex;
+    gap: 1em;
+}
+
+.projects-list-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.projects-list figcaption {
+    border-bottom: none;
+}
+
+.projects-list figcaption a {
+    margin-right: 0.2em;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width: 1400px) {
+    #objective {
+        flex-direction: column;
+    }
+
+    #objective p {
+        flex: 1;
+    }
+
+    .content-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .projects-list-wrapper {
+        flex-direction: column;
+    }
+
+    .project-img-container {
+        height: 230px;
+    }
+}

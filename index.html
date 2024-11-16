@@ -77,9 +77,6 @@
     <main>
         <div class="container">
 
-            <!--        TODO: A brief self-introduction.-->
-            <!--TODO:        Brief Self-Introduction (your goals and priorities, emphasize your strengths, describe your work experience if applicable, or your desire to learn and acquire new skills)-->
-
             <section id="objective">
                 <h2>Objective</h2>
                 <p><span>Inspired</span> junior front-end developer excited to contribute my skills and enthusiasm
@@ -90,11 +87,10 @@
                     engaging
                     web solutions for diverse projects.</p>
             </section>
-            <!--        TODO: contact information is formatted as a list-->
-            <!--        TODO: Contact information. / Discord nickname-->
-            <div class="go-to-button">
-                <a href="#" type="button"><p>Go to Top &mapstoup;</p></a>
-            </div>
+
+            <!--            <div class="go-to-button">-->
+            <!--                <a href="#" type="button"><p>Go to Top &mapstoup;</p></a>-->
+            <!--            </div>-->
 
             <div class="content-wrapper">
                 <article class="content-left">
@@ -213,104 +209,114 @@
                 </article>
 
                 <article class="content-right">
-                    <!--        TODO: A code example. Code is added using characters and tags, not as an image.-->
-                    <figure>
+                    <figure class="card">
                         <figcaption>Code example</figcaption>
-                            <pre>
-                                document.body.onload = () =&gt; {
-                                    const fragment = new DocumentFragment();
-                                    const container = document.getElementById(&quot;projects-container&quot;);
+                        <pre>
+                            document.body.onload = &#10088;&#10089; =&gt; &#10100;
+                                const fragment = new DocumentFragment&#10088;&#10089;;
+                                const container = document.getElementById&#10088;&quot;projects-container&quot;&#10089;;
 
-                                    data.map((project) =&gt; {
-                                        return fragment.append(createProjectTile(project));
-                                    });
-                                    container.append(fragment);
-                                }
-                            </pre>
+                                data.map&#10088;&#10088;project&#10089; =&gt; &#10100;
+                                    return fragment.append&#10088;createProjectTile&#10088;project&#10089;&#10089;;
+                                &#10101;&#10089;;
+                                    container.append&#10088;fragment&#10089;;
+                            &#10101;
+                        </pre>
                     </figure>
 
                     <!--TODO: Work Experience (Junior Devs can list educational
                               projects with the skills used and links to the source code)-->
-                    <section id="experience">
+                    <section id="experience" class="card">
                         <h2>Experience</h2>
-                        <p>Welcome to my self-directed learning projects profiles:</p>
+                        <p class="subtitle">Welcome to my self-directed learning projects profiles:</p>
 
-                        <ul>
-                            <li><a href="">
-                                freeCodeCamp
-                            </a></li>
-                            <li><a href="">
-                                FrontendMentor
-                            </a></li>
-                            <li><a href="">
-                                CODEPEN
-                            </a></li>
+                        <ul class="profiles-list">
+                            <li class="button">
+                                <a href="https://www.freecodecamp.org/abdulina"
+                                   target="_blank">
+                                    freeCodeCamp
+                                </a>&#10063;
+                            </li>
+                            <li class="button">
+                                <a href="https://www.frontendmentor.io/profile/IevgeniiaAbdulina"
+                                   target="_blank">
+                                    FrontendMentor
+                                </a>&#10063;
+                            </li>
+                            <li class="button">
+                                <a href="https://codepen.io/collection/DqJawo"
+                                   target="_blank">
+                                    CODEPEN
+                                </a>&#10063;
+                            </li>
                         </ul>
 
-                        <section>
-                            <h3>educational projects with the skills used and links to the source code</h3>
+                        <div class="projects-list">
+                            <h3>Welcome to my recent projects and links to the source code</h3>
 
-                            <figure>
-                                <a href="https://github.com/IevgeniiaAbdulina/Angular-Health-App"
-                                   target="_blank">
-                                    <img
-                                            src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b7e69.appspot.com/o/Angular-Health-website%2FScreenshot-MH-home.png?alt=media&token=b216c456-fad7-45e8-a1b0-8613df9b6849"
-                                            alt="Project Mental Health preview image"
-                                            loading="lazy"
-                                            height="120"
-                                            width="240"
-                                            class="project-preview-imag">
-                                </a>
-                                <figcaption>
-                                    <a href="https://github.com/IevgeniiaAbdulina/Angular-Health-App"
+                            <div class="projects-list-wrapper">
+                                <figure>
+                                    <a href="https://mental-health-wroclaw.vercel.app"
                                        target="_blank">
-                                        <span>Angular, TS. Mental Health</span>
+                                        <div class="project-img-container">
+                                            <img
+                                                    src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b7e69.appspot.com/o/Angular-Health-website%2FScreenshot-MH-home.png?alt=media&token=b216c456-fad7-45e8-a1b0-8613df9b6849"
+                                                    alt="Project Mental Health preview image"
+                                                    loading="lazy"
+                                                    class="project-preview-imag">
+                                        </div>
                                     </a>
-                                </figcaption>
-                            </figure>
+                                    <figcaption>
+                                        <a href="https://github.com/IevgeniiaAbdulina/Angular-Health-App"
+                                           target="_blank">
+                                            <span>Angular, TS. Mental Health</span>
+                                        </a>&#10063;
+                                    </figcaption>
+                                </figure>
 
-                            <figure>
-                                <a href="https://github.com/IevgeniiaAbdulina/Angular-NgRx-YouTube-Api"
-                                   target="_blank">
-                                    <img
-                                            src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b7e69.appspot.com/o/YouTube-client-app%2Fhome-page-youtube-app-final.png?alt=media&token=ff944672-9f68-4989-945d-0ec62db0107d"
-                                            alt="Project YouTube client app preview image"
-                                            loading="lazy"
-                                            height="120"
-                                            width="240"
-                                            class="project-preview-imag">
-                                </a>
-                                <figcaption>
-                                    <a href="https://github.com/IevgeniiaAbdulina/Angular-NgRx-YouTube-Api"
+                                <figure>
+                                    <a href="https://rolling-scopes-school.github.io/ievgeniiaabdulina-ANGULAR2023Q4/video"
                                        target="_blank">
-                                        <span>Angular, TS. YouTube Client App</span>
+                                        <div class="project-img-container">
+                                            <img
+                                                    src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b7e69.appspot.com/o/YouTube-client-app%2Fhome-page-youtube-app-final.png?alt=media&token=ff944672-9f68-4989-945d-0ec62db0107d"
+                                                    alt="Project YouTube client app preview image"
+                                                    loading="lazy"
+                                                    class="project-preview-imag">
+                                        </div>
                                     </a>
-                                </figcaption>
-                            </figure>
+                                    <figcaption>
+                                        <a href="https://github.com/IevgeniiaAbdulina/Angular-NgRx-YouTube-Api"
+                                           target="_blank">
+                                            <span>Angular, TS. YouTube Client App</span>
+                                        </a>&#10063;
+                                    </figcaption>
+                                </figure>
 
-                            <figure>
-                                <a href="https://github.com/IevgeniiaAbdulina/Project-Management-App"
-                                   target="_blank">
-                                    <img
-                                            src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b7e69.appspot.com/o/pm-app-img.png?alt=media&token=ce72ce20-83e0-4b15-8196-6912fa029c0b"
-                                            alt="Project Task Management preview image"
-                                            loading="lazy"
-                                            height="120"
-                                            width="240"
-                                            class="project-preview-imag">
-                                </a>
-                                <figcaption>
-                                    <a href="https://github.com/IevgeniiaAbdulina/Project-Management-App"
+                                <figure>
+                                    <a href="https://ievgeniiaabdulina.github.io/Project-Management-App"
                                        target="_blank">
-                                        <span>Angular, TS. Task Management</span>
+                                        <div class="project-img-container">
+                                            <img
+                                                    src="https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b7e69.appspot.com/o/pm-app-img.png?alt=media&token=ce72ce20-83e0-4b15-8196-6912fa029c0b"
+                                                    alt="Project Task Management preview image"
+                                                    loading="lazy"
+                                                    class="project-preview-imag">
+                                        </div>
                                     </a>
-                                </figcaption>
-                            </figure>
-                        </section>
+                                    <figcaption>
+                                        <a href="https://github.com/IevgeniiaAbdulina/Project-Management-App"
+                                           target="_blank">
+                                            <span>Angular, TS. Task Management</span>
+                                        </a>&#10063;
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
 
                     </section>
 
-                    <section id="education">
+                    <section id="education" class="card">
                         <h2>Education</h2>
 
                         <article>
@@ -322,9 +328,11 @@
 
                         <h3>Courses</h3>
                         <article>
-            <span><time datetime="2023-10-16">Oct 2023</time>
-                -
-                <time datetime="2024-01-22">Jan 2024</time></span>
+                            <span>
+                                <time datetime="2023-10-16">Oct 2023</time>
+                                -
+                                <time datetime="2024-01-22">Jan 2024</time>
+                            </span>
                             <h3>THE ROLLING SCOPES SCHOOL</h3>
                             <h4>
                                 <a href="https://rs.school/courses/angular"
