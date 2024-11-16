@@ -12,18 +12,20 @@
     --base-font-weight: 400;
     --base-line-height: 1.5;
 
-    /* Colors */
-    --primary-color: #D03B00;
-    --secondary-color: #1098F7;
-    --accent-color: #FAB30F;
-    --dark-blue-color: #19323C;
-    --light-blue-color: #7B9DED;
+    /* Color Theme Swatches in Hex */
+    --primary-color: #F20519;
+    --primary-light-color: #F23019;
+    --secondary-color: #C65EF2;
+    --secondary-light-color: #F088F2;
+    --alert-color: #F2E205;
+    --accent-color: #0AD2E7;
+    --white-color: #F2F2F2;
+    --dark-color: #280014;
+    --light-color: #FDF7E9;
 
-    --base-background-color: #FDF7E9;
 }
 
-/* Site Layout */
-/*-------------------------------------*/
+/* Layout */
 *,
 *::before,
 *::after {
@@ -39,7 +41,7 @@ html {
     line-height: var(--base-line-height);
 
     color: var(--primary-color);
-    background-color: var(--base-background-color);
+    background-color: var(--light-color);
 
     scroll-behavior: smooth;
 }
@@ -71,4 +73,76 @@ main {
     max-width: var(--layout-desktop);
     min-width: var(--layout-mobile);
     margin: 0 auto;
+}
+
+/* Header */
+body::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 24px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+}
+
+.navigation-wrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    top: 48px;
+    gap: 16px;
+    height: 48px;
+    padding: 0 0 0 24px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--light-color);
+}
+
+.navigation-wrapper a.logo,
+.navigation-wrapper img {
+    width: 32px;
+    height: 32px;
+}
+
+.banner-wrapper {
+    position: relative;
+    margin-top: 100px;
+}
+
+/* Navigation */
+#top-nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+}
+
+#top-nav li {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid var(--primary-color);
+}
+
+#top-nav li:last-child {
+    border-right: 1px solid var(--primary-color);
+}
+
+#top-nav li > a {
+    position: relative;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 10px 8px;
+    text-decoration: none;
+}
+
+.downloadLink a {
+    color: var(--light-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-left: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
 }

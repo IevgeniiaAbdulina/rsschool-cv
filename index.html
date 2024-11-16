@@ -24,44 +24,52 @@
 </head>
 <body>
 <section class="site-wrapper">
-    <header>
+    <header role="banner">
         <div class="container">
-            <!--        TODO: Only one h1 heading-->
-            <h1>Hello, I&apos;m Ievgeniia <span>Abdulina</span></h1>
-            <p>Front-End Developer</p>
-
-            <div class="downloadLink">
-                <a href="img/CV-FrontEnd-Abdulina.pdf"
-                   download="CV-FE-Abdulina"
-                   type="button">
-                    Download CV .pdf file
+            <div class="navigation-wrapper">
+                <a href="#" class="logo">
+                    <img src="img/programming_icon-color.svg"
+                         alt="logo image"
+                         loading="lazy"
+                         width="48"
+                         height="48">
                 </a>
+                <nav aria-label="On this page">
+                    <ul role="list" id="top-nav">
+                        <li><a href="#about-me"
+                               data-label="Tab: About me"
+                               aria-label="About me, selected">About me</a></li>
+                        <li><a href="#objective"><span>Objective</span></a></li>
+                        <li><a href="#contacts"><span>Contacts</span></a></li>
+                        <li><a href="#skills"><span>Skills</span></a></li>
+                        <li><a href="#experience"><span>Experience</span></a></li>
+                        <li><a href="#education"><span>Education</span></a></li>
+                        <li><a href="#languages"><span>Languages</span></a></li>
+                    </ul>
+                </nav>
+                <div class="downloadLink">
+                    <a href="img/CV-FrontEnd-Abdulina.pdf"
+                       download="CV-FE-Abdulina"
+                       type="button">
+                        Download CV .pdf file
+                    </a>
+                </div>
             </div>
 
-            <!--        TODO: Navigation is formatted as a list-->
-            <nav aria-label="On this page">
-                <ul role="list">
-                    <li><span role="heading"><b>On this page</b></span></li>
-                    <li><a href="#about-me"
-                           data-label="Tab: About me"
-                           aria-label="About me, selected"
-                    >About me</a></li>
-                    <li><a href="#objective"><span>Objective</span></a></li>
-                    <li><a href="#contacts"><span>Contacts</span></a></li>
-                    <li><a href="#skills"><span>Skills</span></a></li>
-                    <li><a href="#experience"><span>Experience</span></a></li>
-                    <li><a href="#education"><span>Education</span></a></li>
-                    <li><a href="#languages"><span>My Languages</span></a></li>
-                </ul>
-            </nav>
+            <div class="banner-wrapper">
+                <h1>Hello, I&apos;m Ievgeniia <span>Abdulina</span></h1>
+                <p>Front-End Developer</p>
+
+                <img src="img/personal_photo.jpg"
+                     alt="personal photo"
+                     loading="lazy"
+                     width="124"
+                     height="124">
+            </div>
         </div>
     </header>
     <main>
         <div class="container">
-            <!--        TODO: photo of the author,
-                                with no distortion of proportions,
-                                and with an alt attribute for the image-->
-            <img src="img/personal_photo.jpg" alt="personal photo" width="124" height="124">
 
             <!--        TODO: A brief self-introduction.-->
             <!--TODO:        Brief Self-Introduction (your goals and priorities, emphasize your strengths, describe your work experience if applicable, or your desire to learn and acquire new skills)-->
