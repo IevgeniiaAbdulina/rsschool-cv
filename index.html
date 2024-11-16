@@ -24,7 +24,7 @@
 </head>
 <body>
 <section class="site-wrapper">
-    <header role="banner">
+    <header role="banner" aria-label="Header Section">
         <div class="container">
             <div class="navigation-wrapper">
                 <a href="#" class="logo">
@@ -143,6 +143,9 @@
                 </ul>
             </section>
 
+            <div class="go-to-button">
+                <a href="#" type="button"><p>Go to Top &mapstoup;</p></a>
+            </div>
 
             <!--    TODO: list of skills is formatted as a list-->
             <!--    TODO: A list of skills. /(programming languages, frameworks, methodologies, version control systems, and development tools ...)-->
@@ -524,43 +527,39 @@
 
         </div>
     </main>
-    <footer>
+    <footer aria-label="Footer section">
         <div class="container">
-            <hr>
-            <div class="downloadLink">
-                <a href="img/CV-FrontEnd-Abdulina.pdf"
-                   download="CV-FE-Abdulina"
-                   type="button">
-                    Download CV .pdf file
-                </a>
-            </div>
-            <div>
-                <a href="#" type="button"><p>Go to Top &mapstoup;</p></a>
-            </div>
-
-            <p>
-                &copy;
-                <time datetime="2024-11">Nov 2024</time>
-                <a href="https://github.com/IevgeniiaAbdulina"
-                   target="_blank">
-                    <img src="img/github_git_icon.svg"
-                         alt="github icon"
-                         loading="lazy"
-                         width="24"
-                         height="24">
-                    Ievgeniia Abdulina
-                </a>
-            </p>
-
-            <div>
-                <a href="https://rs.school/courses/javascript"
-                   target="_blank">
-                    <img src="img/rs-school-logo.svg"
-                         alt="course logo image"
-                         loading="lazy"
-                         width="80"
-                         height="29">
-                </a>
+            <div class="bottom-wrapper">
+                <p class="attribution">
+                    &copy;
+                    <time datetime="2024-11">Nov 2024</time>
+                    <a href="https://github.com/IevgeniiaAbdulina"
+                       target="_blank">
+                        <img src="img/github_git_icon.svg"
+                             alt="github icon"
+                             loading="lazy"
+                             width="24"
+                             height="24">
+                        <span>Ievgeniia Abdulina</span>
+                    </a>
+                </p>
+                <div class="downloadLink">
+                    <a href="img/CV-FrontEnd-Abdulina.pdf"
+                       download="CV-FE-Abdulina"
+                       type="button">
+                        Download CV .pdf file
+                    </a>
+                </div>
+                <div class="school-logo">
+                    <a href="https://rs.school/courses/javascript"
+                       target="_blank">
+                        <img src="img/rs-school-logo.svg"
+                             alt="course logo image"
+                             loading="lazy"
+                             width="80"
+                             height="29">
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
