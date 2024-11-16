@@ -26,6 +26,16 @@
 
 }
 
+/* Typography */
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* Layout */
 *,
 *::before,
@@ -108,7 +118,6 @@ main {
 
 /* Navigation */
 #top-nav {
-    list-style-type: none;
     overflow: hidden;
     background-color: transparent;
     display: flex;
@@ -226,3 +235,117 @@ h1.site-header > span:last-of-type {
     font-weight: var(--base-font-weight-bold);
     text-align: right;
 }
+
+/* Objective */
+#objective {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+#objective h2 {
+    flex: 1;
+}
+
+#objective p {
+    flex: 2;
+}
+
+#objective p > span {
+    font-weight: var(--base-font-weight-bold);
+}
+
+/* Main content */
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    gap: 4em;
+}
+
+.content-wrapper > * {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.content-wrapper section {
+    position: relative;
+    width: 100%;
+}
+
+.content-wrapper section > *:first-child {
+    width: 100%;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+/* Card style */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: max-content;
+    height: fit-content;
+}
+
+.card > * {
+    width: 100%;
+}
+
+.card > ul > li {
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.card > ul > li > a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* Contacts section */
+.img-container {
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    border: 1px solid var(--primary-color);
+}
+
+.img-container img {
+    filter: drop-shadow(0 100px 0 var(--primary-color));
+    transform: translateY(-100px);
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.contacts-item:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.card > ul > li:hover .img-container {
+    border: 1px solid var(--secondary-color);
+}
+
+.card > ul > li:hover  {
+    color: var(--secondary-color);
+}
+
+.card > ul > li:hover .img-container img {
+    filter: drop-shadow(0 100px 0 var(--secondary-color))
+}
+
