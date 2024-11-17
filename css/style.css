@@ -26,6 +26,10 @@
 }
 
 /* Typography */
+h1 {
+    font-size: calc(1.2em + 0.5vw);
+}
+
 h2 {
     text-transform: uppercase;
     margin-bottom: 1em;
@@ -236,6 +240,25 @@ a.logo:hover > img {
     gap: 0.2em;
 }
 
+/* Go to top button */
+.go-to-top-button {
+    position: relative;
+    padding: 10px 18px;
+    background-color: var(--primary-color);
+}
+
+.go-to-top-button > a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .bottom-wrapper {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
 /* Selected link item with icons */
 .link-item {
     display: flex;
@@ -295,7 +318,8 @@ h1.site-header > span:last-of-type {
 .banner-right > img {
     width: 220px;
     height: auto;
-    border: 1px solid;
+    object-fit: contain;
+    border: 1px solid var(--primary-color);
 }
 
 .banner-wrapper > p {
