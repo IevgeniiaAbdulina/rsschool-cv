@@ -424,7 +424,9 @@ h1.site-header > span:last-of-type {
 
 /* Code example section */
 figure.code-example {
-    overflow: scroll;
+    overflow-x: scroll;
+    scrollbar-color: var(--primary-color) var(--light-color);
+    scrollbar-width: thin;
     border: 1px solid var(--primary-color);
     margin-bottom: 4rem;
 }
