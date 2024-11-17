@@ -521,6 +521,11 @@ figure.project-item img {
     object-fit: contain;
 }
 
+.project-img-container:hover > img {
+    scale: 110%;
+    transition: 0.3s;
+}
+
 /* desktop breakpoint */
 @media (min-width: 1024px) {
     .projects-list-wrapper > * {
