@@ -189,9 +189,36 @@ main {
     text-decoration: none;
 }
 
-.attribution a:hover {
+.github-link-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+/* Selected link item with icons */
+.link-item {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.link-item:hover {
     color: var(--secondary-color);
 }
+
+.link-item:hover a {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.link-item:hover .img-container {
+    border: 1px solid var(--secondary-color);
+}
+
+.link-item:hover .img-container > img {
+    filter: drop-shadow(0 100px 0 var(--secondary-color))
+}
+/* -------------------------*/
 
 /* Main page content style */
 
@@ -313,9 +340,8 @@ h1.site-header > span:last-of-type {
     color: var(--primary-color);
 }
 
-/* ----------------------- */
+/* Icon Image Style */
 
-/* Contacts section */
 .img-container {
     overflow: hidden;
     width: 32px;
@@ -329,26 +355,15 @@ h1.site-header > span:last-of-type {
     transform: translateY(-100px);
 }
 
+/* Contacts section */
+
 .contacts-item {
     display: flex;
     align-items: center;
 }
 
 .contacts-item span {
-    margin: 0 0.2em 0 1em;
-}
-
-.contacts-list li:hover a {
-    color: var(--secondary-color);
-    text-decoration: underline;
-}
-
-.card > ul > li:hover .img-container {
-    border: 1px solid var(--secondary-color);
-}
-
-.card > ul > li:hover .img-container img {
-    filter: drop-shadow(0 100px 0 var(--secondary-color))
+    margin: 0 0 0 1em;
 }
 
 /* Main content right  */
@@ -473,15 +488,6 @@ li.button:hover a {
     font-size: 1.2em;
 }
 
-.courses-link:hover{
-    color: var(--secondary-color);
-}
-
-.courses-link:hover a{
-    color: var(--secondary-color);
-    text-decoration: underline;
-}
-
 ul.skills-list {
     margin-top: 1em;
     list-style-position: inside;
@@ -494,41 +500,21 @@ ul.skills-list  span {
     list-style-type: square;
 }
 
-.project-link:hover {
-    color: var(--secondary-color);
-}
-
-.project-link:hover a{
-    color: var(--secondary-color);
-    text-decoration: underline;
-}
-
 .projects-demo-list {
     margin-top: 2em;
 }
 
-/* Online learning section */
-ul.online-learning-list {
+ /*Online learning section */
+.online-learning-list {
     list-style-type: none;
 }
 
-.learning-list-item > a {
+.learning-list-item-title {
     font-weight: 700;
-}
-
-.learning-list-item > ul {
-    list-style-type: square;
-    list-style-position: inside;
 }
 
 .learning-list-item-sub {
     padding-left: 1em;
-}
-
-.learning-list-item > a:hover,
-.learning-list-item-sub:hover a{
-    color: var(--secondary-color);
-    text-decoration: underline;
 }
 
 @media only screen and (max-width: 1400px) {
