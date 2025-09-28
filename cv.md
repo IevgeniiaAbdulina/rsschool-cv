@@ -20,3 +20,15 @@ Front-End Developer
 ## Objective
 
 Inspired junior front-end developer excited to contribute my skills and enthusiasm to the dynamic team. Committed to staying current with the latest web development practices and offering responsive and engaging web solutions for diverse projects.
+
+## Skills
+
+- HTML & CSS, SCSS, Sass
+- JavaScript
+- Angular
+- RxJS, NgRx, Redux
+- React & Redux
+- npm
+- Git, GitHub
+- WebStorm, VSCode
+- Figma, Illustrator, Photoshop
