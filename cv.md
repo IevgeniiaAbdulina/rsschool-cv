@@ -74,9 +74,9 @@ Kharkiv, Ukraine
 - [RS School](https://rs.school/js)
     - JS/FE Short Track 2025 Q3 (In Progress, Position: 94)
     - Angular 2025Q3 (In Progress, Position: 15)
-    - JS/FE Course EN 2024Q4 (**Certificate**, Position: 10)
+    - JS/FE Course EN 2024Q4 ([**Certificate**](https://app.rs.school/certificate/rzsu8skk), Position: 10)
     - Angular 2023Q4 (Completed, Position: 81)
-    - JS/FE Course EN 2022Q3 (**Certificate**, Position: 15)
+    - JS/FE Course EN 2022Q3 ([**Certificate**](https://app.rs.school/certificate/hl9521tu), Position: 15)
 
 - [freeCodeCamp](https://www.freecodecamp.org/abdulina)
     - [Responsive Web Design](https://www.freecodecamp.org/certification/abdulina/responsive-web-design)
