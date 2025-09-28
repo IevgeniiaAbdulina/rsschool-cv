@@ -32,3 +32,18 @@ Inspired junior front-end developer excited to contribute my skills and enthusia
 - Git, GitHub
 - WebStorm, VSCode
 - Figma, Illustrator, Photoshop
+
+### Code examples
+
+```
+document.body.onload = () => {
+    const fragment = new DocumentFragment();
+    const container = document.getElementById("projects-container");
+
+    data.map((project) => {
+        return fragment.append(createProjectTile(project));
+    });
+
+    container.append(fragment);
+}
+```
